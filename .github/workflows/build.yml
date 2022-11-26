@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Compile resume
+      - name: Compile Laura_Vega_CV
         uses: xu-cheng/latex-action@v2
         with:
           root_file: Vega_Laura_CV.tex
